@@ -1,14 +1,179 @@
 body{
   padding-top: 50px;
   font-size: 16px;
+
 }
 
+h2{
+	font-size: 34px;
+}
 
 .navbar-custom {
-    background-color: white;
-    
-}
-#aboutme{
-  background: #D3D3D3;
+    background-color: #f1f1f1;
+    padding-left: 45px;
+    text-align: center;	
 }
 
+#aboutme{
+	padding: 30px;
+	background: #66B9BF;
+}
+#aboutme h2{
+	color: white;
+
+}
+#aboutme p{
+	color: white;
+}
+
+#aboutme .btn-secondary {
+    color: #fff;
+    background-color: #66B9BF;
+    border-color: white; /*set the color you want here*/
+}
+
+#contact{
+	padding: 30px;
+	background: #E37222;
+  	border-bottom: #333 1px solid;
+
+}
+#contact h2{
+	color: white;
+
+}
+#contact p{
+	color: white;
+}
+
+#projects{
+	padding: 30px;
+	background: #f1f1f1;
+	
+}
+#projects h2{
+	color: #66B9BF;
+}
+#projects p{
+	color: #66B9BF;
+}
+#projects .btn-secondary {
+    color: #66B9BF;
+    background-color: white;
+    border-color: #66B9BF; /*set the color you want here*/
+}
+
+/* minimal sm icons */
+.socialbtns{
+  text-align: center;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -webkit-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -moz-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -o-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #000;
+    text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -moz-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -o-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    transition: all ease 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
+label.required>span.white{ color: white; }
+
+footer {
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #E37222;
+    border-radius: 8px;
+    border-color: white;
+    color: white;
+    padding: 8px 28px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#showcase h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#showcase img{
+  width: 90%
+  margin-left:60px;
+}
+
+#showcase .showcase-right, .showcase-left{
+  margin-top: 70px;
+}
+
+#info2{
+	
+  	margin:20px 0 20px 0;
+}
+#info3{
+	
+  	margin:20px 0 20px 0;
+}
+#info4{
+	
+  	margin:20px 0 20px 0;
+}
+#info2 h2{
+  margin-bottom: 20px;
+}
+#info2 h3{
+  display: inline;
+}
+#info4 h3{
+  display: inline;
+}
