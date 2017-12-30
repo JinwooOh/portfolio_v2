@@ -29,7 +29,7 @@ h2{
 #aboutme .btn-secondary {
     color: #fff;
     background-color: #66B9BF;
-    border-color: white; /*set the color you want here*/
+    border-color: white; 
 }
 
 #contact{
@@ -60,7 +60,7 @@ h2{
 #projects .btn-secondary {
     color: #66B9BF;
     background-color: white;
-    border-color: #66B9BF; /*set the color you want here*/
+    border-color: #66B9BF;
 }
 
 /* minimal sm icons */
@@ -176,4 +176,33 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 #info4 h3{
   display: inline;
+}
+
+#projects{
+  background: #f1f1f1;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#projects p{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+}
+
+#projects .btn-secondary {
+    color: #66B9BF;
+    background-color: white;
+    border-color: #313131; 
+}
+#construction{
+	text-align: center;
+}
+#construction h2{
+	font-size: 60px;
+	color: #429bf4;
+}
+#construction h3{
+	color: #666;
 }
