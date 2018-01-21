@@ -11,7 +11,7 @@ h2{
 .navbar-custom {
     background-color: #f1f1f1;
     padding-left: 45px;
-    text-align: center;	
+    text-align: center;
 }
 
 #aboutme{
@@ -29,13 +29,13 @@ h2{
 #aboutme .btn-secondary {
     color: #fff;
     background-color: #66B9BF;
-    border-color: white; 
+    border-color: white;
 }
 
 #contact{
 	padding: 30px;
 	background: #E37222;
-  	border-bottom: #333 1px solid;
+  border-bottom: #333 1px solid;
 
 }
 #contact h2{
@@ -46,18 +46,18 @@ h2{
 	color: white;
 }
 
-#projects{
+#project{
 	padding: 30px;
 	background: #f1f1f1;
-	
+
 }
-#projects h2{
+#project h2{
 	color: #66B9BF;
 }
-#projects p{
+#project p{
 	color: #66B9BF;
 }
-#projects .btn-secondary {
+#project .btn-secondary {
     color: #66B9BF;
     background-color: white;
     border-color: #66B9BF;
@@ -142,6 +142,8 @@ input[type=button], input[type=submit], input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+
 #showcase h2{
   font-size: 40px;
   margin-bottom: 20px;
@@ -157,15 +159,15 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 #info2{
-	
+
   	margin:20px 0 20px 0;
 }
 #info3{
-	
+
   	margin:20px 0 20px 0;
 }
 #info4{
-	
+
   	margin:20px 0 20px 0;
 }
 #info2 h2{
@@ -194,7 +196,7 @@ input[type=button], input[type=submit], input[type=reset] {
 #projects .btn-secondary {
     color: #66B9BF;
     background-color: white;
-    border-color: #313131; 
+    border-color: #313131;
 }
 #construction{
 	text-align: center;
